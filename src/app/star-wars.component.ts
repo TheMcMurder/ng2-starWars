@@ -3,7 +3,6 @@ import { MdToolbar } from '@angular2-material/toolbar';
 import { MdButton } from '@angular2-material/button';
 import { MD_SIDENAV_DIRECTIVES } from '@angular2-material/sidenav';
 import { MD_LIST_DIRECTIVES } from '@angular2-material/list';
-import { MD_CARD_DIRECTIVES } from '@angular2-material/card';
 import { MdInput } from '@angular2-material/input';
 import { MdCheckbox } from '@angular2-material/checkbox';
 import { MdIcon, MdIconRegistry } from '@angular2-material/icon';
@@ -23,12 +22,11 @@ import { Routes , ROUTER_DIRECTIVES, ROUTER_PROVIDERS, Router} from '@angular/ro
     ROUTER_DIRECTIVES,
     MD_SIDENAV_DIRECTIVES,
     MD_LIST_DIRECTIVES,
-    MD_CARD_DIRECTIVES,
     MdToolbar,
     MdButton,
     MdInput,
     MdCheckbox,
-    MdIcon
+    MdIcon,
   ],
   providers: [MdIconRegistry, ROUTER_PROVIDERS],
   templateUrl: 'star-wars.component.html',
